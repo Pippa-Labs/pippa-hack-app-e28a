@@ -1,0 +1,1040 @@
+{
+ "journeys": {
+  "vic_nhg": {
+   "kind": "train",
+   "minutes": 13,
+   "changes": 0,
+   "alternative_minutes": null,
+   "reason": null,
+   "legs": [
+    {
+     "lines": [
+      "circle"
+     ],
+     "board": "940GZZLUVIC",
+     "alight": "940GZZLUNHG"
+    }
+   ],
+   "leaves": [
+    {
+     "station": "Notting Hill Gate",
+     "stops": 5,
+     "after": null,
+     "minutes": 13
+    }
+   ]
+  },
+  "pcc_hr5": {
+   "kind": "train",
+   "minutes": 55,
+   "changes": 0,
+   "alternative_minutes": null,
+   "reason": null,
+   "legs": [
+    {
+     "lines": [
+      "piccadilly"
+     ],
+     "board": "940GZZLUPCC",
+     "alight": "940GZZLUHR5"
+    }
+   ],
+   "leaves": [
+    {
+     "station": "Heathrow Terminal 5",
+     "stops": null,
+     "after": "Heathrow Terminals 2 & 3",
+     "minutes": 55
+    }
+   ]
+  },
+  "lsq_cgn": {
+   "kind": "walk",
+   "minutes": 6,
+   "changes": 0,
+   "alternative_minutes": 1,
+   "reason": null,
+   "legs": [],
+   "leaves": []
+  },
+  "sks_ctn": {
+   "kind": "train",
+   "minutes": 25,
+   "changes": 1,
+   "alternative_minutes": 21,
+   "reason": null,
+   "legs": [
+    {
+     "lines": [
+      "piccadilly"
+     ],
+     "board": "940GZZLUSKS",
+     "alight": "940GZZLULSQ"
+    },
+    {
+     "lines": [
+      "northern"
+     ],
+     "board": "940GZZLULSQ",
+     "alight": "940GZZLUCTN"
+    }
+   ],
+   "leaves": [
+    {
+     "station": "Leicester Square",
+     "stops": 5,
+     "after": null,
+     "minutes": 11
+    },
+    {
+     "station": "Camden Town",
+     "stops": 6,
+     "after": null,
+     "minutes": 10
+    }
+   ]
+  }
+ },
+ "boards": {
+  "vic_nhg": {
+   "leg": {
+    "lines": [
+     "circle"
+    ],
+    "boardId": "940GZZLUVIC",
+    "alightId": "940GZZLUNHG"
+   },
+   "marks": [
+    {
+     "id": "-403654955",
+     "mark": "take"
+    },
+    {
+     "id": "1116224840",
+     "mark": "take"
+    },
+    {
+     "id": "555993583",
+     "mark": "take"
+    },
+    {
+     "id": "1520296761",
+     "mark": "skip"
+    },
+    {
+     "id": "959803356",
+     "mark": "skip"
+    },
+    {
+     "id": "584226068",
+     "mark": "skip"
+    },
+    {
+     "id": "987330375",
+     "mark": "skip"
+    },
+    {
+     "id": "-1614823200",
+     "mark": "skip"
+    },
+    {
+     "id": "-864482821",
+     "mark": "skip"
+    },
+    {
+     "id": "-2018042191",
+     "mark": "skip"
+    },
+    {
+     "id": "-871953925",
+     "mark": "skip"
+    },
+    {
+     "id": "988051271",
+     "mark": "skip"
+    },
+    {
+     "id": "584881428",
+     "mark": "skip"
+    },
+    {
+     "id": "-468719061",
+     "mark": "skip"
+    },
+    {
+     "id": "1474119000",
+     "mark": "unknown"
+    },
+    {
+     "id": "1775526861",
+     "mark": "skip"
+    },
+    {
+     "id": "-725993951",
+     "mark": "skip"
+    },
+    {
+     "id": "-1223509308",
+     "mark": "skip"
+    },
+    {
+     "id": "434843499",
+     "mark": "skip"
+    },
+    {
+     "id": "1775592397",
+     "mark": "skip"
+    },
+    {
+     "id": "1775920077",
+     "mark": "skip"
+    },
+    {
+     "id": "-860690352",
+     "mark": "skip"
+    },
+    {
+     "id": "1775985613",
+     "mark": "skip"
+    },
+    {
+     "id": "434909035",
+     "mark": "skip"
+    },
+    {
+     "id": "1910997402",
+     "mark": "skip"
+    },
+    {
+     "id": "-725862879",
+     "mark": "skip"
+    },
+    {
+     "id": "434974571",
+     "mark": "skip"
+    }
+   ],
+   "board": {
+    "live": true,
+    "rows": [
+     {
+      "destination": "Wimbledon",
+      "minutes": 1,
+      "mark": "skip",
+      "lineId": "district",
+      "lineName": "District",
+      "mode": "tube",
+      "platformName": "Westbound - Platform 1"
+     },
+     {
+      "destination": "Edgware Road (Circle)",
+      "minutes": 3,
+      "mark": "take",
+      "lineId": "circle",
+      "lineName": "Circle",
+      "mode": "tube",
+      "platformName": "Westbound - Platform 1"
+     },
+     {
+      "destination": "Richmond",
+      "minutes": 4,
+      "mark": "skip",
+      "lineId": "district",
+      "lineName": "District",
+      "mode": "tube",
+      "platformName": "Westbound - Platform 1"
+     }
+    ],
+    "platforms": [
+     "Westbound - Platform 1"
+    ],
+    "firstTake": {
+     "index": 1,
+     "minutes": 3
+    }
+   }
+  },
+  "pcc_hr5": {
+   "leg": {
+    "lines": [
+     "piccadilly"
+    ],
+    "boardId": "940GZZLUPCC",
+    "alightId": "940GZZLUHR5"
+   },
+   "marks": [
+    {
+     "id": "-768287378",
+     "mark": "skip"
+    },
+    {
+     "id": "-901824711",
+     "mark": "skip"
+    },
+    {
+     "id": "216925287",
+     "mark": "skip"
+    },
+    {
+     "id": "-768156306",
+     "mark": "skip"
+    },
+    {
+     "id": "350855764",
+     "mark": "skip"
+    },
+    {
+     "id": "217056359",
+     "mark": "skip"
+    },
+    {
+     "id": "1868269698",
+     "mark": "skip"
+    },
+    {
+     "id": "217252967",
+     "mark": "skip"
+    },
+    {
+     "id": "1868204162",
+     "mark": "skip"
+    },
+    {
+     "id": "1062356336",
+     "mark": "skip"
+    },
+    {
+     "id": "-2109992804",
+     "mark": "skip"
+    },
+    {
+     "id": "1063077232",
+     "mark": "skip"
+    },
+    {
+     "id": "-510157703",
+     "mark": "skip"
+    },
+    {
+     "id": "-108840373",
+     "mark": "skip"
+    },
+    {
+     "id": "660317984",
+     "mark": "skip"
+    },
+    {
+     "id": "-108905909",
+     "mark": "take"
+    },
+    {
+     "id": "660252448",
+     "mark": "skip"
+    },
+    {
+     "id": "-108185013",
+     "mark": "skip"
+    },
+    {
+     "id": "660973344",
+     "mark": "skip"
+    },
+    {
+     "id": "-2109992803",
+     "mark": "skip"
+    },
+    {
+     "id": "-2109796195",
+     "mark": "skip"
+    },
+    {
+     "id": "-510157702",
+     "mark": "take"
+    },
+    {
+     "id": "1332611543",
+     "mark": "take"
+    },
+    {
+     "id": "-108119477",
+     "mark": "take"
+    },
+    {
+     "id": "1062815089",
+     "mark": "skip"
+    },
+    {
+     "id": "-1708011794",
+     "mark": "skip"
+    }
+   ],
+   "board": {
+    "live": true,
+    "rows": [
+     {
+      "destination": "Uxbridge",
+      "minutes": 1,
+      "mark": "skip",
+      "lineId": "piccadilly",
+      "lineName": "Piccadilly",
+      "mode": "tube",
+      "platformName": "Westbound - Platform 4"
+     },
+     {
+      "destination": "Heathrow T123 + 5",
+      "minutes": 3,
+      "mark": "take",
+      "lineId": "piccadilly",
+      "lineName": "Piccadilly",
+      "mode": "tube",
+      "platformName": "Westbound - Platform 4"
+     },
+     {
+      "destination": "Uxbridge",
+      "minutes": 5,
+      "mark": "skip",
+      "lineId": "piccadilly",
+      "lineName": "Piccadilly",
+      "mode": "tube",
+      "platformName": "Westbound - Platform 4"
+     }
+    ],
+    "platforms": [
+     "Westbound - Platform 4"
+    ],
+    "firstTake": {
+     "index": 1,
+     "minutes": 3
+    }
+   }
+  },
+  "sks_ctn": {
+   "leg": {
+    "lines": [
+     "piccadilly"
+    ],
+    "boardId": "940GZZLUSKS",
+    "alightId": "940GZZLULSQ"
+   },
+   "marks": [
+    {
+     "id": "1590878435",
+     "mark": "skip"
+    },
+    {
+     "id": "-1334084600",
+     "mark": "skip"
+    },
+    {
+     "id": "352581525",
+     "mark": "skip"
+    },
+    {
+     "id": "1990722354",
+     "mark": "skip"
+    },
+    {
+     "id": "219556324",
+     "mark": "skip"
+    },
+    {
+     "id": "1857987841",
+     "mark": "skip"
+    },
+    {
+     "id": "1968791497",
+     "mark": "skip"
+    },
+    {
+     "id": "-936113603",
+     "mark": "skip"
+    },
+    {
+     "id": "-1678589146",
+     "mark": "skip"
+    },
+    {
+     "id": "-801319828",
+     "mark": "skip"
+    },
+    {
+     "id": "-1685273818",
+     "mark": "skip"
+    },
+    {
+     "id": "-1283055369",
+     "mark": "skip"
+    },
+    {
+     "id": "1968660425",
+     "mark": "skip"
+    },
+    {
+     "id": "-1283448585",
+     "mark": "skip"
+    },
+    {
+     "id": "-1283186442",
+     "mark": "skip"
+    },
+    {
+     "id": "5672837",
+     "mark": "unknown"
+    },
+    {
+     "id": "1758695331",
+     "mark": "take"
+    },
+    {
+     "id": "1758695331",
+     "mark": "take"
+    },
+    {
+     "id": "1894018548",
+     "mark": "skip"
+    },
+    {
+     "id": "-708978097",
+     "mark": "skip"
+    },
+    {
+     "id": "1759285155",
+     "mark": "take"
+    },
+    {
+     "id": "-843840450",
+     "mark": "take"
+    },
+    {
+     "id": "-1240050006",
+     "mark": "skip"
+    },
+    {
+     "id": "-1375539048",
+     "mark": "take"
+    },
+    {
+     "id": "1893363187",
+     "mark": "take"
+    },
+    {
+     "id": "-709633458",
+     "mark": "take"
+    },
+    {
+     "id": "-844495811",
+     "mark": "skip"
+    },
+    {
+     "id": "-1375473512",
+     "mark": "skip"
+    },
+    {
+     "id": "1893428723",
+     "mark": "skip"
+    },
+    {
+     "id": "1894018547",
+     "mark": "take"
+    },
+    {
+     "id": "-708978098",
+     "mark": "take"
+    },
+    {
+     "id": "1894084083",
+     "mark": "skip"
+    },
+    {
+     "id": "-708912562",
+     "mark": "skip"
+    },
+    {
+     "id": "-1240050007",
+     "mark": "skip"
+    },
+    {
+     "id": "-843709379",
+     "mark": "skip"
+    },
+    {
+     "id": "-1374687080",
+     "mark": "skip"
+    },
+    {
+     "id": "-844102595",
+     "mark": "take"
+    }
+   ],
+   "board": {
+    "live": true,
+    "rows": [
+     {
+      "destination": "Cockfosters",
+      "minutes": 2,
+      "mark": "take",
+      "lineId": "piccadilly",
+      "lineName": "Piccadilly",
+      "mode": "tube",
+      "platformName": "Eastbound - Platform 4"
+     },
+     {
+      "destination": "Cockfosters",
+      "minutes": 7,
+      "mark": "take",
+      "lineId": "piccadilly",
+      "lineName": "Piccadilly",
+      "mode": "tube",
+      "platformName": "Eastbound - Platform 4"
+     },
+     {
+      "destination": "Arnos Grove",
+      "minutes": 10,
+      "mark": "take",
+      "lineId": "piccadilly",
+      "lineName": "Piccadilly",
+      "mode": "tube",
+      "platformName": "Eastbound - Platform 4"
+     }
+    ],
+    "platforms": [
+     "Eastbound - Platform 4"
+    ],
+    "firstTake": {
+     "index": 0,
+     "minutes": 2
+    }
+   }
+  },
+  "ctn_wlo": {
+   "leg": {
+    "lines": [
+     "northern"
+    ],
+    "boardId": "940GZZLUCTN",
+    "alightId": "940GZZLUWLO"
+   },
+   "marks": [
+    {
+     "id": "-220489563",
+     "mark": "skip"
+    },
+    {
+     "id": "-1988441591",
+     "mark": "take"
+    },
+    {
+     "id": "-355254638",
+     "mark": "take"
+    },
+    {
+     "id": "873178111",
+     "mark": "skip"
+    },
+    {
+     "id": "-1855187880",
+     "mark": "skip"
+    },
+    {
+     "id": "-1855122344",
+     "mark": "skip"
+    },
+    {
+     "id": "739000748",
+     "mark": "take"
+    },
+    {
+     "id": "-1989883383",
+     "mark": "take"
+    },
+    {
+     "id": "875930623",
+     "mark": "take"
+    },
+    {
+     "id": "-221865819",
+     "mark": "skip"
+    },
+    {
+     "id": "-354533742",
+     "mark": "take"
+    },
+    {
+     "id": "-1026171581",
+     "mark": "skip"
+    },
+    {
+     "id": "-1989752311",
+     "mark": "take"
+    },
+    {
+     "id": "-222193499",
+     "mark": "skip"
+    },
+    {
+     "id": "1547308302",
+     "mark": "skip"
+    },
+    {
+     "id": "-1026040509",
+     "mark": "skip"
+    },
+    {
+     "id": "738738604",
+     "mark": "skip"
+    },
+    {
+     "id": "-354861422",
+     "mark": "skip"
+    },
+    {
+     "id": "-222127963",
+     "mark": "skip"
+    },
+    {
+     "id": "-1988507082",
+     "mark": "take"
+    },
+    {
+     "id": "-221996894",
+     "mark": "skip"
+    },
+    {
+     "id": "1547504911",
+     "mark": "skip"
+    },
+    {
+     "id": "-1855122343",
+     "mark": "skip"
+    },
+    {
+     "id": "-221931358",
+     "mark": "skip"
+    },
+    {
+     "id": "1547570447",
+     "mark": "skip"
+    },
+    {
+     "id": "-1028924096",
+     "mark": "skip"
+    },
+    {
+     "id": "-1855056807",
+     "mark": "skip"
+    },
+    {
+     "id": "-221865822",
+     "mark": "skip"
+    },
+    {
+     "id": "-1026237120",
+     "mark": "skip"
+    },
+    {
+     "id": "739066285",
+     "mark": "skip"
+    },
+    {
+     "id": "-1989817802",
+     "mark": "skip"
+    },
+    {
+     "id": "-354533741",
+     "mark": "skip"
+    },
+    {
+     "id": "-221800286",
+     "mark": "skip"
+    },
+    {
+     "id": "-1855450023",
+     "mark": "skip"
+    },
+    {
+     "id": "-1026106048",
+     "mark": "skip"
+    },
+    {
+     "id": "739197357",
+     "mark": "skip"
+    },
+    {
+     "id": "-354926957",
+     "mark": "skip"
+    },
+    {
+     "id": "-1855384487",
+     "mark": "skip"
+    },
+    {
+     "id": "1547308303",
+     "mark": "skip"
+    },
+    {
+     "id": "738345386",
+     "mark": "skip"
+    },
+    {
+     "id": "-1988441545",
+     "mark": "skip"
+    }
+   ],
+   "board": {
+    "live": true,
+    "rows": [
+     {
+      "destination": "Kennington via CX",
+      "minutes": 1,
+      "mark": "take",
+      "lineId": "northern",
+      "lineName": "Northern",
+      "mode": "tube",
+      "platformName": "Southbound - Platform 2"
+     },
+     {
+      "destination": "Morden via Bank",
+      "minutes": 1,
+      "mark": "skip",
+      "lineId": "northern",
+      "lineName": "Northern",
+      "mode": "tube",
+      "platformName": "Southbound - Platform 4"
+     },
+     {
+      "destination": "Morden via Bank",
+      "minutes": 2,
+      "mark": "skip",
+      "lineId": "northern",
+      "lineName": "Northern",
+      "mode": "tube",
+      "platformName": "Southbound - Platform 2"
+     }
+    ],
+    "platforms": [
+     "Southbound - Platform 2",
+     "Southbound - Platform 4"
+    ],
+    "firstTake": {
+     "index": 0,
+     "minutes": 1
+    }
+   }
+  },
+  "ctn_bnk": {
+   "leg": {
+    "lines": [
+     "northern"
+    ],
+    "boardId": "940GZZLUCTN",
+    "alightId": "940GZZLUBNK"
+   },
+   "marks": [
+    {
+     "id": "-220489563",
+     "mark": "skip"
+    },
+    {
+     "id": "-1988441591",
+     "mark": "skip"
+    },
+    {
+     "id": "-355254638",
+     "mark": "skip"
+    },
+    {
+     "id": "873178111",
+     "mark": "take"
+    },
+    {
+     "id": "-1855187880",
+     "mark": "skip"
+    },
+    {
+     "id": "-1855122344",
+     "mark": "skip"
+    },
+    {
+     "id": "739000748",
+     "mark": "skip"
+    },
+    {
+     "id": "-1989883383",
+     "mark": "skip"
+    },
+    {
+     "id": "875930623",
+     "mark": "skip"
+    },
+    {
+     "id": "-221865819",
+     "mark": "skip"
+    },
+    {
+     "id": "-354533742",
+     "mark": "skip"
+    },
+    {
+     "id": "-1026171581",
+     "mark": "skip"
+    },
+    {
+     "id": "-1989752311",
+     "mark": "skip"
+    },
+    {
+     "id": "-222193499",
+     "mark": "take"
+    },
+    {
+     "id": "1547308302",
+     "mark": "skip"
+    },
+    {
+     "id": "-1026040509",
+     "mark": "skip"
+    },
+    {
+     "id": "738738604",
+     "mark": "skip"
+    },
+    {
+     "id": "-354861422",
+     "mark": "skip"
+    },
+    {
+     "id": "-222127963",
+     "mark": "skip"
+    },
+    {
+     "id": "-1988507082",
+     "mark": "skip"
+    },
+    {
+     "id": "-221996894",
+     "mark": "take"
+    },
+    {
+     "id": "1547504911",
+     "mark": "take"
+    },
+    {
+     "id": "-1855122343",
+     "mark": "skip"
+    },
+    {
+     "id": "-221931358",
+     "mark": "skip"
+    },
+    {
+     "id": "1547570447",
+     "mark": "skip"
+    },
+    {
+     "id": "-1028924096",
+     "mark": "skip"
+    },
+    {
+     "id": "-1855056807",
+     "mark": "skip"
+    },
+    {
+     "id": "-221865822",
+     "mark": "take"
+    },
+    {
+     "id": "-1026237120",
+     "mark": "take"
+    },
+    {
+     "id": "739066285",
+     "mark": "take"
+    },
+    {
+     "id": "-1989817802",
+     "mark": "take"
+    },
+    {
+     "id": "-354533741",
+     "mark": "skip"
+    },
+    {
+     "id": "-221800286",
+     "mark": "take"
+    },
+    {
+     "id": "-1855450023",
+     "mark": "skip"
+    },
+    {
+     "id": "-1026106048",
+     "mark": "skip"
+    },
+    {
+     "id": "739197357",
+     "mark": "take"
+    },
+    {
+     "id": "-354926957",
+     "mark": "skip"
+    },
+    {
+     "id": "-1855384487",
+     "mark": "skip"
+    },
+    {
+     "id": "1547308303",
+     "mark": "skip"
+    },
+    {
+     "id": "738345386",
+     "mark": "skip"
+    },
+    {
+     "id": "-1988441545",
+     "mark": "skip"
+    }
+   ],
+   "board": {
+    "live": true,
+    "rows": [
+     {
+      "destination": "Kennington via CX",
+      "minutes": 1,
+      "mark": "skip",
+      "lineId": "northern",
+      "lineName": "Northern",
+      "mode": "tube",
+      "platformName": "Southbound - Platform 2"
+     },
+     {
+      "destination": "Morden via Bank",
+      "minutes": 1,
+      "mark": "take",
+      "lineId": "northern",
+      "lineName": "Northern",
+      "mode": "tube",
+      "platformName": "Southbound - Platform 4"
+     },
+     {
+      "destination": "Morden via Bank",
+      "minutes": 2,
+      "mark": "take",
+      "lineId": "northern",
+      "lineName": "Northern",
+      "mode": "tube",
+      "platformName": "Southbound - Platform 2"
+     }
+    ],
+    "platforms": [
+     "Southbound - Platform 4",
+     "Southbound - Platform 2"
+    ],
+    "firstTake": {
+     "index": 1,
+     "minutes": 1
+    }
+   }
+  }
+ }
+}
