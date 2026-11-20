@@ -387,7 +387,10 @@ class Contract(unittest.TestCase):
                 self.assertIsNone(re.search(r"[\w.+-]+@[\w-]+\.[\w.]+", body), f"email-like text in {path.name}")
 
     def test_flat_folder(self):
-        self.assertEqual([p.name for p in HERE.iterdir() if p.is_dir() and p.name != "__pycache__"], [])
+        # The starter repo's own folders are not deployed; the app's files must not live in a subfolder.
+        not_deployed = {"__pycache__", "docs", "scripts"}
+        self.assertEqual([p.name for p in HERE.iterdir()
+                          if p.is_dir() and p.name not in not_deployed and not p.name.startswith(".")], [])
 
 
 if __name__ == "__main__":
