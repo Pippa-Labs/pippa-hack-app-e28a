@@ -7,7 +7,7 @@ persistence: none
 
 # CHECK-IN: your public pseudonym (3 to 30 characters; never your real name
 # or an email address). Nothing publishes while this is empty.
-app_author_name: "ArnavxChakshu"
+app_author_name: "chakshu-c and arnavpopley"
 
 app:
   # CHECK-IN: the repository sets this itself ("Set app.id from the
@@ -15,7 +15,7 @@ app:
   # over it.
   id: hack.app_e28a
   name: Tube Guide
-  version: 0.1.0
+  version: 0.1.1
   # Never the word "by" here: the badge is parsed on it.
   summary: >-
     Says which London Underground train to take between two stations or
